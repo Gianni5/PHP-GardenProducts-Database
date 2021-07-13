@@ -1,0 +1,266 @@
+.borderBottom {
+  border-bottom: 2px solid green;
+}
+
+.borderTop {
+  border-top: 2px solid green;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background {
+  background-color: red;
+}
+
+.cart {
+  background: url(/images/cart.png?8440c319b7b3b18f629bef82260ed2d9);
+  border: 1px solid black;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+  background-size: 62px 30px;
+}
+
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.price {
+  width: 80px;
+  height: 40px;
+  background-color: yellow;
+  box-shadow: 2px 2px black;
+  color: red;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+}
+
+.container img {
+  vertical-align: middle;
+}
+
+.container .content {
+  bottom: 0;
+  background: black;
+  /* Fallback color */
+  background: rgba(255, 0, 0, 0.8);
+  /* red background with 0.8 opacity */
+  color: #f1f1f1;
+  width: 45%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.borderLine {
+  border: 2px solid green;
+}
+
+.Central {
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 8px;
+  font-size: 17px;
+  border: none;
+  width: 120px;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: green;
+}
+
+.footMargin {
+  margin: 100px;
+}
+
+.menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.dropbtn {
+  width: 70px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: grey;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: grey;
+}
+
+.dropdown-content a:hover {
+  background-color: #00b359;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #00994d;
+}
+
+#garden {
+  background: url(/images/inspGarden.jpg?b03ae7cae1461540150fa00b36a2fbfb);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#patio {
+  background: url(/images/inspPatio.jpg?4520163ed5dfee2fdf75b6f71507bfce);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#indoor {
+  background: url(/images/ispIndoor.jpg?45fc39f75c5874745d5247a3c0c18fe5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#newAccount {
+  background-color: red;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+* {
+  padding: 7px;
+}
+
+header {
+  background-color: #00994d;
+  /*background-image: linear-gradient($myBgColor6, #66ff66);*/
+  background-image: url(/images/header.jpg?a2c50def13e5787310082308d9463643);
+}
+header h1 {
+  font-family: Copperplate, "Trebuchet MS", Verdana, sans-serif;
+  text-align: center;
+  overflow: visible;
+  font-size: 55px;
+  text-shadow: 2px 2px black;
+  color: grey;
+}
+header form {
+  border: 1px solid black;
+  margin: 8px;
+  padding: 8px;
+  width: 200px;
+  float: right;
+  background-color: grey;
+}
+
+nav {
+  margin-top: 2px;
+  background-color: #66ff66;
+  /* For browsers that do not support gradients */
+  background-image: url(/images/header.jpg?a2c50def13e5787310082308d9463643);
+}
+
+footer {
+  background-image: url(/images/header.jpg?a2c50def13e5787310082308d9463643);
+}
