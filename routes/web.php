@@ -29,7 +29,7 @@ Route::get('/inspiration', function (){
     return view('GardenWeb.inspiration');
 });
 Route::get('/create', function (){
-    return view('Admin.Create');
+    return view('admin.Create');
 
 });
 Route::get('/create', function (){
@@ -38,7 +38,7 @@ Route::get('/create', function (){
 });
 Route::get('/show', function (){
 
-    return view('Admin.Show');
+    return view('admin.Show');
 });
 
 Route::resource('garden', \App\Http\Controllers\GardenController::class);

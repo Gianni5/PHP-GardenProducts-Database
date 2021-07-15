@@ -16,10 +16,10 @@
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                     <x-jet-nav-link href="{{ route('products.index') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Product') }}
+                        {{ __('product') }}
                     </x-jet-nav-link>
                     <x-jet-nav-link href="{{ route('category.index') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Category') }}
+                        {{ __('category') }}
                     </x-jet-nav-link>
                 </div>
             </div>
