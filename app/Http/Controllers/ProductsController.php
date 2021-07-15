@@ -61,7 +61,7 @@ class ProductsController extends Controller
     public function show(Product $product)
     {
 
-        return view('admin.product.show',['product' => $product]);
+        return view('admin.product.Show',['product' => $product]);
     }
 
     /**
@@ -73,7 +73,7 @@ class ProductsController extends Controller
     public function edit(Product $product)
     {
         $categories =Category::all();
-        return view('admin.product.edit',['product' => $product, 'categories'=>$categories]);
+        return view('admin.product.Edit',['product' => $product, 'categories'=>$categories]);
 
     }
 
